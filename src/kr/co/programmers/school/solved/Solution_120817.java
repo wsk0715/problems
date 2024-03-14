@@ -1,4 +1,4 @@
-package kr.co.programmers.school;
+package kr.co.programmers.school.solved;
 
 public class Solution_120817 {
     // 배열의 평균값

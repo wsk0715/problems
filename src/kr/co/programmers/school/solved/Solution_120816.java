@@ -1,4 +1,4 @@
-package kr.co.programmers.school;
+package kr.co.programmers.school.solved;
 
 public class Solution_120816 {
     // 피자 나눠 먹기 (3)

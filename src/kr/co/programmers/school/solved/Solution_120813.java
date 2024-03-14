@@ -1,4 +1,4 @@
-package kr.co.programmers.school;
+package kr.co.programmers.school.solved;
 
 public class Solution_120813 {
     // 짝수는 싫어요
