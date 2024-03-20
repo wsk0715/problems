@@ -1,37 +1,35 @@
 package net.acmicpc.solving;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Scanner;
 
 public class $Solution_ {
-    private static final Scanner sc = new Scanner(System.in);
+	private static final BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
-    //
-    // https://www.acmicpc.net/problem/
-    public static void main(String[] args) {
-        int n = readInt();
+	//
+	// https://www.acmicpc.net/problem/
+	public static void main(String[] args) throws IOException {
+		int n = readInt();
 
-    }
+	}
 
 
-    // Libraries
-    private static String readLine() {
-        return sc.nextLine();
-    }
+	// Libraries
+	private static String readLine() throws IOException {
+		return bf.readLine();
+	}
 
-    private static int readInt() {
-        int value = sc.nextInt();
-        sc.nextLine();
-        return value;
-    }
+	private static int readInt() throws IOException {
+		int value = Integer.parseInt(bf.readLine().trim());
+		return value;
+	}
 
-    private static int[] readIntFrom(int n) {
-        for (int i = 1; i < n; i++) {
-            sc.nextInt();
-        }
-        return Arrays.stream(sc.nextLine().trim().split(" "))
-                .mapToInt(Integer::parseInt)
-                .toArray();
-    }
+	private static int[] readIntegers() throws IOException {
+		return Arrays.stream(bf.readLine().trim().split(" "))
+				.mapToInt(Integer::parseInt)
+				.toArray();
+	}
 
 }
