@@ -19,17 +19,17 @@ public class $Solution_ {
 			return answer;
 		}
 
-	}
-
-
-	// Libraries
-	private int[] toArray(ArrayList<Integer> al) {
-		// ArrayList<Integer> to int[]
-		int[] arr = new int[al.size()];
-		for (int i = 0; i < al.size(); i++) {
-			arr[i] = al.get(i);
+		
+		// Libraries
+		private int[] toArray(ArrayList<Integer> al) {
+			// ArrayList<Integer> to int[]
+			int[] arr = new int[al.size()];
+			for (int i = 0; i < al.size(); i++) {
+				arr[i] = al.get(i);
+			}
+			return arr;
 		}
-		return arr;
+
 	}
 
 }
