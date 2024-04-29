@@ -2,7 +2,7 @@ package kr.co.programmers.school.solved.beginner;
 
 import java.util.ArrayList;
 
-public class Solution_120924 {
+public class _Solution_120924 {
 	// 다음에 올 숫자
 	// https://school.programmers.co.kr/learn/courses/30/lessons/120924
 	public static void main(String[] args) {

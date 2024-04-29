@@ -2,7 +2,7 @@ package kr.co.programmers.school.solved.beginner;
 
 import java.util.ArrayList;
 
-public class Solution_120956 {
+public class _Solution_120956 {
 	// 옹알이 (1)
 	// https://school.programmers.co.kr/learn/courses/30/lessons/120956
 	public static void main(String[] args) {
