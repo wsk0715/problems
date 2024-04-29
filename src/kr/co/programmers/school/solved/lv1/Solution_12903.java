@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12903 {
 	// 가운데 글자 가져오기 - lv.1

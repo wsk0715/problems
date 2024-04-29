@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12954 {
 	// x만큼 간격이 있는 n개의 숫자 - lv.1

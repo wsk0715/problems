@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12937 {
 	// 짝수와 홀수 - lv.1

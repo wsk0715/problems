@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 import java.util.Arrays;
 

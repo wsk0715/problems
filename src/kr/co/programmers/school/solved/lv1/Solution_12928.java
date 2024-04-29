@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12928 {
 	// 약수의 합 - lv.1

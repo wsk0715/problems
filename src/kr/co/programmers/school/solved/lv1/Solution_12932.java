@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12932 {
 	// 자연수 뒤집어 배열로 만들기 - lv.1

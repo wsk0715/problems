@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 import java.util.Arrays;
 import java.util.OptionalDouble;
@@ -15,7 +15,8 @@ public class Solution_12944 {
 
 	static class Solution {
 		public double solution(int[] arr) {
-			OptionalDouble avg = Arrays.stream(arr).average();
+			OptionalDouble avg = Arrays.stream(arr)
+									   .average();
 			return avg.getAsDouble();
 		}
 

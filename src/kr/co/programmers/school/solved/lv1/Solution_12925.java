@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_12925 {
 	// 문자열을 정수로 바꾸기 - lv.1

@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_87389 {
 	// 나머지가 1이 되는 수 찾기 - lv.1

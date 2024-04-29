@@ -1,4 +1,4 @@
-package kr.co.programmers.school.solved;
+package kr.co.programmers.school.solved.lv1;
 
 public class Solution_77884 {
 	// 약수의 개수와 덧셈 - lv.1
