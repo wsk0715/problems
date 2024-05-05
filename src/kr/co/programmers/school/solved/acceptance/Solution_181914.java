@@ -1,0 +1,37 @@
+package kr.co.programmers.school.solved.acceptance;
+
+import java.util.ArrayList;
+
+public class Solution_181914 {
+	// 9로 나눈 나머지
+	// https://school.programmers.co.kr/learn/courses/30/lessons/181914
+	public static void main(String[] args) {
+		Solution sol = new Solution();
+
+//		int[] input = {};
+//		sol.solution(input);
+	}
+
+	static class Solution {
+		public int solution(String n) {
+			char[] arr = n.toCharArray();
+			int sum = 0;
+			for (int i = 0; i < arr.length; i++) {
+				sum += arr[i] - 48;
+			}
+			return sum % 9;
+		}
+
+		// Libraries
+		private int[] toArray(ArrayList<Integer> al) {
+			// ArrayList<Integer> to int[]
+			int[] arr = new int[al.size()];
+			for (int i = 0; i < al.size(); i++) {
+				arr[i] = al.get(i);
+			}
+			return arr;
+		}
+
+	}
+
+}
