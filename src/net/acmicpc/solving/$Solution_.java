@@ -39,7 +39,8 @@ public class $Solution_ {
 					 .toArray();
 	}
 
-	private static void write(String s) throws IOException {
+	private static <T> void write(T value) throws IOException {
+		String s = String.valueOf(value);
 		bw.write(s);
 		bw.newLine();
 	}
