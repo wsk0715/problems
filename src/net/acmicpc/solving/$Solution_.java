@@ -5,9 +5,10 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.util.Arrays;
+import java.util.StringTokenizer;
 
 public class $Solution_ {
+
 	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
@@ -27,16 +28,18 @@ public class $Solution_ {
 	}
 
 	private static int readInt() throws IOException {
-		return Integer.parseInt(br.readLine()
-								  .trim());
+		return Integer.parseInt(br.readLine());
 	}
 
 	private static int[] readIntegers() throws IOException {
-		return Arrays.stream(br.readLine()
-							   .trim()
-							   .split(" "))
-					 .mapToInt(Integer::parseInt)
-					 .toArray();
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		int[] arr = new int[st.countTokens()];
+
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = Integer.parseInt(st.nextToken());
+		}
+
+		return arr;
 	}
 
 	private static <T> void write(T value) throws IOException {
