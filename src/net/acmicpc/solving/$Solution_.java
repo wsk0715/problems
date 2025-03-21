@@ -9,13 +9,11 @@ import java.util.StringTokenizer;
 
 public class $Solution_ {
 
-	private static final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	private static final BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	static int N, M;
 
 	//
 	// https://www.acmicpc.net/problem/
 	public static void main(String[] args) throws IOException {
-		int n = readInt();
 
 
 		close();
@@ -23,24 +21,17 @@ public class $Solution_ {
 
 
 	// Libraries
-	private static String readLine() throws IOException {
-		return br.readLine();
+	private static StringTokenizer readLine() throws IOException {
+		return new StringTokenizer(br.readLine());
 	}
 
-	private static int readInt() throws IOException {
-		return Integer.parseInt(br.readLine());
-	}
-
-	private static int[] readIntegers() throws IOException {
-		StringTokenizer st = new StringTokenizer(br.readLine());
-		int[] arr = new int[st.countTokens()];
-
-		for (int i = 0; i < arr.length; i++) {
-			arr[i] = Integer.parseInt(st.nextToken());
+	private static int nextInt() throws IOException {
+		if (st == null || !st.hasMoreTokens()) {
+			st = readLine();
 		}
-
-		return arr;
+		return Integer.parseInt(st.nextToken());
 	}
+
 
 	private static <T> void write(T value) throws IOException {
 		String s = String.valueOf(value);
@@ -53,5 +44,9 @@ public class $Solution_ {
 		bw.close();
 		br.close();
 	}
+
+	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+	static StringTokenizer st;
 
 }
