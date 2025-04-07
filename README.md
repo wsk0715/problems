@@ -3,7 +3,7 @@
 > 알고리즘 문제 풀이 기록 저장소  
 > 다양한 플랫폼에서 문제 해결 능력 향상을 목표로 꾸준히 학습하고 있습니다.
 
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dntjrvv)](https://solved.ac/dntjrvv)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=dntjrvv)](https://solved.ac/profile/dntjrvv)
 
 ## 📚 사용 플랫폼
 
