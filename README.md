@@ -24,48 +24,48 @@
 ```
 📦src
 ├─ 📁algorithm                  # 개념 정리(알고리즘)
-│  ├─ 📁sort                    # 정렬
-│  ├─ 📁search                  # 탐색
-│  └─ 📁...                     # ...
+│  ├─ 📁sort                      # 정렬
+│  ├─ 📁search                    # 탐색
+│  └─ 📁...                       # ...
 │
 ├─ 📁com
 │  ├─ 📁codility                # Codility
 │  │  └─ 📁app
-│  │     ├─ 📁solved            # 풀이 완료
-│  │     │  ├─ 📁lesson1        # lesson 1 - Iterations
-│  │     │  ├─ 📁...            # ...
-│  │     │  └─ 📁lesson17       # lesson 17 - Dynamic Programming
-│  │     └─ 📁solving           # 해결 중, 템플릿
+│  │     ├─ 📁solved              # 풀이 완료
+│  │     │  ├─ 📁lesson1            # lesson 1 - Iterations
+│  │     │  ├─ 📁...                # ...
+│  │     │  └─ 📁lesson17           # lesson 17 - Dynamic Programming
+│  │     └─ 📁solving             # 해결 중, 템플릿
 │  │
 │  └─ 📁leetcode                # LeetCode
-│     ├─ 📁solved               # 해결한 문제(난이도별 분류)
-│     │  ├─ 📁easy              # 난이도 Easy
-│     │  ├─ 📁medium            # 난이도 Medium
-│     │  └─ 📁...               # ...
-│     ├─ 📁solving              # 해결 중, 템플릿
-│     └─ 📁util                 # 유틸리티(자주 제시되는 자료구조 등)
+│     ├─ 📁solved                 # 해결한 문제(난이도별 분류)
+│     │  ├─ 📁easy                  # 난이도 Easy
+│     │  ├─ 📁medium                # 난이도 Medium
+│     │  └─ 📁...                   # ...
+│     ├─ 📁solving                # 해결 중, 템플릿
+│     └─ 📁util                   # 유틸리티(자주 제시되는 자료구조 등)
 │
 ├─ 📁kr
 │  └─ 📁co
 │     └─ 📁programmers          # 프로그래머스
 │        └─ 📁school
-│           ├─ 📁solved         # 해결한 문제
-│           │  ├─ 📁acceptance  # 입문 단계
-│           │  ├─ 📁beginner    # 기초 단계
-│           │  ├─ 📁lv1         # lv 1
-│           │  ├─ 📁lv2         # lv 2
-│           │  ├─ 📁...         # ...
-│           │  └─ 📁pcce        # pcce 기출 문제
-│           └─ 📁solving        # 해결 중, 템플릿
+│           ├─ 📁solved           # 해결한 문제
+│           │  ├─ 📁acceptance      # 입문 단계
+│           │  ├─ 📁beginner        # 기초 단계
+│           │  ├─ 📁lv1             # lv 1
+│           │  ├─ 📁lv2             # lv 2
+│           │  ├─ 📁...             # ...
+│           │  └─ 📁pcce            # pcce 기출 문제
+│           └─ 📁solving          # 해결 중, 템플릿
 │
 └─ 📁net
    └─ 📁acmicpc                 # 백준
-      ├─ 📁solved               # 해결한 문제
-      │  ├─ 📁bronze            # 난이도 Bronze
-      │  ├─ 📁silver            # 난이도 Silver
-      │  ├─ 📁gold              # 난이도 Gold
-      │  └─ 📁...               # ...
-      └─ 📁solving              # 해결 중, 템플릿
+      ├─ 📁solved                 # 해결한 문제
+      │  ├─ 📁bronze                # 난이도 Bronze
+      │  ├─ 📁silver                # 난이도 Silver
+      │  ├─ 📁gold                  # 난이도 Gold
+      │  └─ 📁...                   # ...
+      └─ 📁solving                # 해결 중, 템플릿
 ```
 
 ## ✍️ 문제풀이 규칙
