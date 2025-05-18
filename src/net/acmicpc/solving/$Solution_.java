@@ -32,7 +32,6 @@ public class $Solution_ {
 		return Integer.parseInt(st.nextToken());
 	}
 
-
 	private static <T> void write(T value) throws IOException {
 		String s = String.valueOf(value);
 		bw.write(s);
