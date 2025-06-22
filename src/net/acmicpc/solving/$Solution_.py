@@ -6,8 +6,5 @@ input = sys.stdin.readline
 
 #
 # https://www.acmicpc.net/problem/
-def main():
-    N = input()
 
-
-main()
+N = input()
