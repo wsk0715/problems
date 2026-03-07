@@ -10,6 +10,7 @@
 | 플랫폼 | 링크 |
 |--------|------|
 | Baekjoon Online Judge (BOJ) | [https://www.acmicpc.net/](https://www.acmicpc.net/) |
+| SW Expert Academy (SWEA) | [https://swexpertacademy.com/](https://swexpertacademy.com/) |
 | Programmers | [https://school.programmers.co.kr/](https://school.programmers.co.kr/) |
 | LeetCode | [https://leetcode.com/](https://leetcode.com/) |
 | Codility | [https://app.codility.com/](https://app.codility.com/) |
@@ -17,7 +18,7 @@
 ## 🧩 문제 풀이 환경
 <div align="left">
   <img src="https://img.shields.io/badge/IntelliJ_IDEA-2C2C2C?style=for-the-badge&logo=intellijidea&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Open_JDK-11-%23E94E32?style=for-the-badge&logo=openjdk&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Open_JDK-8-%23E94E32?style=for-the-badge&logo=openjdk&logoColor=white"/>
 </div>
 
 ## 📁 디렉토리 구조
@@ -37,13 +38,20 @@
 │  │     │  └─ 📁lesson17           # lesson 17 - Dynamic Programming
 │  │     └─ 📁solving             # 해결 중, 템플릿
 │  │
-│  └─ 📁leetcode                # LeetCode
+│  ├─ 📁leetcode                # LeetCode
+│  │  ├─ 📁solved                 # 해결한 문제(난이도별 분류)
+│  │  │  ├─ 📁easy                  # 난이도 Easy
+│  │  │  ├─ 📁medium                # 난이도 Medium
+│  │  │  └─ 📁...                   # ...
+│  │  ├─ 📁solving                # 해결 중, 템플릿
+│  │  └─ 📁util                   # 유틸리티(자주 제시되는 자료구조 등)
+│  │
+│  └─ 📁swexpertacademy         # SW Expert Academy
 │     ├─ 📁solved                 # 해결한 문제(난이도별 분류)
-│     │  ├─ 📁easy                  # 난이도 Easy
-│     │  ├─ 📁medium                # 난이도 Medium
+│     │  ├─ 📁D1                    # 난이도 D1
+│     │  ├─ 📁D2                    # 난이도 D2
 │     │  └─ 📁...                   # ...
-│     ├─ 📁solving                # 해결 중, 템플릿
-│     └─ 📁util                   # 유틸리티(자주 제시되는 자료구조 등)
+│     └─ 📁solving                # 해결 중, 템플릿
 │
 ├─ 📁kr
 │  └─ 📁co
