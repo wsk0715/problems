@@ -19,7 +19,7 @@ public class Solution_17478 {
 
 	public static String getRecursionStr(int input, int depth) {
 		StringBuilder str = new StringBuilder();
-		String bars = "____".repeat(depth);
+		String bars = repeat("____", depth);
 
 		StringBuilder innerStr = new StringBuilder();
 		String str1 = String.format("\n%s\"재귀함수가 뭔가요?\"\n", bars);
@@ -44,6 +44,15 @@ public class Solution_17478 {
 			str.append(innerStr);
 		}
 		return str.toString();
+	}
+
+	public static String repeat(String str, int count) {
+		if (count <= 0) return "";
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < count; i++) {
+			sb.append(str);
+		}
+		return sb.toString();
 	}
 
 }

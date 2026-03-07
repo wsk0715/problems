@@ -14,7 +14,16 @@ public class Solution_181940 {
 
 	static class Solution {
 		public String solution(String s, int k) {
-			return s.repeat(k);
+			return repeat(s, k);
+		}
+
+		public static String repeat(String str, int count) {
+			if (count <= 0) return "";
+			StringBuilder sb = new StringBuilder();
+			for (int i = 0; i < count; i++) {
+				sb.append(str);
+			}
+			return sb.toString();
 		}
 
 

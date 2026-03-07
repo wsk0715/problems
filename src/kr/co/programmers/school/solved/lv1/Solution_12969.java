@@ -20,8 +20,17 @@ public class Solution_12969 {
 			int b = sc.nextInt();
 
 			for (int i = 0; i < b; i++) {
-				System.out.println("*".repeat(a));
+				System.out.println(repeat("*", a));
 			}
+		}
+
+		public static String repeat(String str, int count) {
+			if (count <= 0) return "";
+			StringBuilder sb = new StringBuilder();
+			for (int i = 0; i < count; i++) {
+				sb.append(str);
+			}
+			return sb.toString();
 		}
 
 

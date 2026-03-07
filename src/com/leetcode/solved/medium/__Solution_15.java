@@ -50,7 +50,7 @@ public class __Solution_15 {
 					int sum = nums[i] + nums[left] + nums[right];
 
 					if (sum == 0) {  // b-3. 조건을 만족한 경우,
-						result.add(List.of(nums[i], nums[left], nums[right]));  // 결과 배열에 더한다.
+						result.add(Arrays.asList(nums[i], nums[left], nums[right]));  // 결과 배열에 더한다.
 
 						while (left < right && nums[left] == nums[left + 1]) {  // 동일한 요소를 전부 건너뛴다.
 							left += 1;

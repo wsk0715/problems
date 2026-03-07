@@ -19,7 +19,16 @@ public class Solution_181950 {
 			String str = sc.next();
 			int n = sc.nextInt();
 
-			System.out.println(str.repeat(n));
+			System.out.println(repeat(str, n));
+		}
+
+		public static String repeat(String str, int count) {
+			if (count <= 0) return "";
+			StringBuilder sb = new StringBuilder();
+			for (int i = 0; i < count; i++) {
+				sb.append(str);
+			}
+			return sb.toString();
 		}
 
 

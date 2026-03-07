@@ -30,7 +30,7 @@ public class ___Solution_8979 {
 						 .collect(Collectors.toList()));
 		}
 
-		Comparator<List<Integer>> comparator = new Comparator<>() {
+		Comparator<List<Integer>> comparator = new Comparator<List<Integer>>() {
 			@Override
 			public int compare(List<Integer> o1, List<Integer> o2) {
 				// 금메달 갯수가 다르면

@@ -1,7 +1,7 @@
 package kr.co.programmers.school.solved.beginner;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 public class Solution_120853 {
 	// 컨트롤 제트
@@ -15,7 +15,7 @@ public class Solution_120853 {
 
 	static class Solution {
 		public int solution(String s) {
-			ArrayList<String> arr = new ArrayList<>(List.of(s.split(" ")));
+			ArrayList<String> arr = new ArrayList<>(Arrays.asList(s.split(" ")));
 			int sum = 0;
 			int recent = 0;
 			for (int i = 0; i < arr.size(); i++) {

@@ -11,8 +11,17 @@ public class Solution_2440 {
 		int input = sc.nextInt();
 
 		for (int i = input; i > 0; i--) {
-			System.out.println("*".repeat(i));
+			System.out.println(repeat("*", i));
 		}
+	}
+
+	public static String repeat(String str, int count) {
+		if (count <= 0) return "";
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < count; i++) {
+			sb.append(str);
+		}
+		return sb.toString();
 	}
 
 }

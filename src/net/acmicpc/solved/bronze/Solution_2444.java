@@ -20,9 +20,18 @@ public class Solution_2444 {
 			int space = Math.abs(i);
 			int stars = 2 * (n - (i >= 0 ? i : -i)) - 1;
 
-			System.out.println(" ".repeat(space) + "*".repeat(stars));
+			System.out.println(repeat(" ", space) + repeat("*", stars));
 		}
 		close();
+	}
+
+	public static String repeat(String str, int count) {
+		if (count <= 0) return "";
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < count; i++) {
+			sb.append(str);
+		}
+		return sb.toString();
 	}
 
 

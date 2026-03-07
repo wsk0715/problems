@@ -16,8 +16,7 @@ public class _Solution_181836 {
 			for (int i = 0; i < picture.length; i++) {
 				StringBuilder sb = new StringBuilder();
 				for (int j = 0; j < picture[i].length(); j++) {
-					sb.append(String.valueOf(picture[i].charAt(j))
-									.repeat(k));
+					sb.append(repeat(String.valueOf(picture[i].charAt(j)), k));
 				}
 				picture[i] = sb.toString();
 			}
@@ -27,6 +26,15 @@ public class _Solution_181836 {
 			return r;
 		}
 
+	}
+
+	public static String repeat(String str, int count) {
+		if (count <= 0) return "";
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < count; i++) {
+			sb.append(str);
+		}
+		return sb.toString();
 	}
 
 }
