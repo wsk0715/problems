@@ -1,6 +1,7 @@
-/**/solving/
-/src/algorithm
+**/solving/
 
-/.idea/
-/problems.iml
-/out/
+.idea/
+out/
+problems.iml
+
+*.txt
