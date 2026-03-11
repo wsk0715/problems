@@ -1,6 +1,7 @@
 package net.acmicpc.solving;
 
 import java.io.BufferedReader;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
@@ -12,6 +13,7 @@ import java.util.StringTokenizer;
 public class $Solution_ {
 
 	public static void main(String[] args) throws IOException {
+		init();
 
 		
 
@@ -21,10 +23,10 @@ public class $Solution_ {
 
 
 	// Libraries
-	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	static StringBuilder sb = new StringBuilder();
+	static BufferedReader br;
+	static StringBuilder sb;
 	static StringTokenizer st;
-	
+
 	static String nextToken() throws IOException {
 		while (st == null || !st.hasMoreTokens()) {
 			String s = br.readLine();
@@ -38,6 +40,12 @@ public class $Solution_ {
 
 	static int nextInt() throws IOException {
 		return Integer.parseInt(nextToken());
+	}
+
+	static void init() throws IOException {
+		System.setIn(new FileInputStream("input.txt"));
+		br = new BufferedReader(new InputStreamReader(System.in));
+		sb = new StringBuilder();
 	}
 
 }
