@@ -42,6 +42,10 @@ public class $Solution_ {
 		return Integer.parseInt(nextToken());
 	}
 
+	static long nextLong() throws IOException {
+		return Long.parseLong(nextToken());
+	}
+
 	static void init() throws IOException {
 		System.setIn(new FileInputStream("input.txt"));
 		br = new BufferedReader(new InputStreamReader(System.in));
